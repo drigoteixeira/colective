@@ -7,14 +7,20 @@
 					<div class="c12">
 						<section class="posts">
 							<article class="post">
-								<h3 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-								<div class="post-content">
-									<?php the_excerpt(); ?>
-								</div>
+								<h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 								<div class="post-meta">
-									<time class="post-date"><?php the_time('j M, Y') ?></time>
+									<time class="post-date">07 Junho, 2013</time>
+								</div>
+								<div class="post-content">
+									<?php the_content(); ?>
+								</div>
+								<div class="categories">
+									<p><span>#</span><?php the_category(', '); ?></p>
 								</div>
 							</article>
+						</section>
+						<section class="comments">
+							<p>[Inserir Comentários Discus]</p>
 						</section>
 					</div>
 				</div>

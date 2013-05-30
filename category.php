@@ -1,10 +1,14 @@
 <?php get_header(); ?>
 
 			<div class="grid w640 content" role="main">
-				<?php if (have_posts()) : ?>
-    			<?php while (have_posts()) : the_post(); ?>
 				<div class="row">
 					<div class="c12">
+
+						<?php if ( have_posts() ) : ?>
+						<h2 class="category-name">#<?php single_cat_title(); ?></h2>
+						<?php endif; ?>
+						<?php while (have_posts()) : the_post(); ?>
+
 						<section class="posts">
 							<article class="post">
 								<h3 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
@@ -19,7 +23,6 @@
 					</div>
 				</div>
 				<?php endwhile; ?>
-				<?php endif; ?>
 			</div>
 
 <?php get_footer(); ?>
