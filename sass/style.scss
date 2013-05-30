@@ -126,6 +126,24 @@ body {
 	padding: 30px 0;
 }
 
+#header {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#header h1#logo {
+	text-indent: -9999px;
+	background: url(../img/pictuRe.jpg) no-repeat;
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+#header p {	font-size: 14px; color: #666;}
+#header span {
+	color: #336699;
+} 
 
 
 /* =Media query for 960 Screens - sets nested grids to 100%
@@ -139,6 +157,12 @@ body {
 -------------------------------------------------------------- */
 @media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation:portrait){
 body{font-size:90%}
+
+h2 {
+	font-size: 42px;
+	line-height: 46px;
+}
+
 .row{margin-bottom:0!important}
 .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{width:100%;margin-right:0;margin-left:0;margin-bottom:20px}
 }

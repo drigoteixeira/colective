@@ -30,8 +30,8 @@
     	<div class="grid w640">
     		<div class="row">
     			<header id="header" class="c12">
-    				<h1 id="logo">Drigo Teixeira</h1>
-    				<p>UI Designer &amp; Entusiasta de Arquitetura de Informação</p>
+    				<h1 id="logo"><a href="/blog/" title="<?php bloginfo('name');?>"><?php bloginfo('name');?></a></h1>
+    				<p><span>Drigo Teixeira</span> é UI Designer &amp; Entusiasta de AI</p>
     			</header><!-- /header -->
     		</div>
     	</div>
