@@ -11,26 +11,10 @@
 
 									<p>Infelismente o que conteúdo que você estava procurando não está mais disponível. Isso pode ter acontecido por algum erro digitação na barra de endereços ou porque clicou em um link que não existe mais.</p>
 
-									<p>Isso acontece com os melhores. Talvez você esteja interessado em saber as atualizações mais recentes:</p>
 								</div>
 							</article>
 						</section>
 					</div>
-				</div>
-				<div class="row">
-					<?php query_posts('cat=&showposts=5'); ?>
-					   <ul id="recentPosts">
-
-					   		<?php while (have_posts()) : the_post(); ?>
-
-					      <li>
-					        <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
-					        <div class="postDate"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><time class="post-date"><?php the_time('j M, Y') ?></time></abbr></div>
-					      </li>
-
-					   		<?php endwhile; ?>
-					   
-					    </ul>
 				</div>
 			</div>
 

@@ -5,7 +5,7 @@
 					<div class="c12">
 
 						<?php if ( have_posts() ) : ?>
-						<h2 class="category-name">#<?php single_cat_title(); ?></h2>
+						<h2 class="category-name"><span>#</span><?php single_cat_title(); ?></h2>
 						<?php endif; ?>
 						<?php while (have_posts()) : the_post(); ?>
 
@@ -16,7 +16,7 @@
 									<?php the_excerpt(); ?>
 								</div>
 								<div class="post-meta">
-									<time class="post-date"><?php the_time('j M, Y') ?></time>
+									<span class="post-date"><?php the_time('j M, Y') ?></span>
 								</div>
 							</article>
 						</section>

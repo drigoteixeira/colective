@@ -1,13 +1,162 @@
-/*
-Theme Name: Colective
-Theme URI: 
-Description: A clean WP Theme.
-Version: 1.0
-Author: Rodrigo Teixeira
-Author URI: http://www.drigoteixeira.com;
-Tags: simple, clean, single column
+/* ==========================================================================
+TIPOGRAFIA
+========================================================================== */
 
-*/
 
-@import(css/style.css);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+a {
+	color: #336699;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bree Serif', serif;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #222;
+	text-decoration: none;
+} 
+
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 0.83em 0;
+    text-align: center;
+    line-height: 1em;
+}
+
+h3 {
+    font-size: 2em;
+    margin: .5em 0;
+    line-height: 1em;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+
+p {
+	line-height: 2em;
+}
+
+.post ul {
+	margin-left: 15px;
+	padding-left: 0;
+}
+
+.post ul li {
+	margin-bottom: 10px;
+}
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+body {
+	background: #fff;
+	border-top: 10px solid #f39354;
+	font-family: 'Open Sans', sans-serif;
+	color: #222;
+}
+
+.post-date {
+	display: block;
+	font-style: italic;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+}
+
+.category-name span { color: #f39354;}
+
+.categories {
+	font-family: 'Bree Serif', serif;
+	font-style: italic;
+	color: #999;
+}
+
+.categories span {
+	color: #f39354;
+	font-size: 1em;
+}
+
+.categories a {
+	text-decoration: none;
+	color: #999;
+}
+
+.categories a:hover {
+	text-decoration: underline;
+}
+
+.posts {
+	border-bottom: 1px dotted #ccc;
+	padding: 30px 0;
+	margin-bottom: 30px;
+}
+
+#header {
+	text-align: center;
+	padding-top: 30px;
+}
+
+h1#logo {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#logo a {
+	display: block;
+	width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+
+.twitterBox {
+	margin: 0 auto;
+	width: 170px;
+}
+
+#header h1#logo a:hover {
+	
+}
+
+#header p {	font-size: 14px; color: #666;}
+#header span {
+	color: #336699;
+} 
+
+#footer {
+	margin-top: 40px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 12px;
+}
