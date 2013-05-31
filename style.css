@@ -33,10 +33,11 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 3.4em;
     margin: 0.83em 0;
     text-align: center;
     line-height: 1em;
+    color: #222;
 }
 
 h3 {
@@ -73,15 +74,23 @@ p {
 	margin-bottom: 10px;
 }
 
+blockquote {
+	font-style: italic;
+	border-left: 2px solid #f39354;
+	margin-left: 0;
+	padding-left: 20px;
+	line-height: 1.6em;
+}
+
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 
 body {
 	background: #fff;
-	border-top: 10px solid #f39354;
+	border-top: 5px solid #f39354;
 	font-family: 'Open Sans', sans-serif;
-	color: #222;
+	color: #444;
 }
 
 .post-date {
@@ -151,6 +160,10 @@ h1#logo {
 #header span {
 	color: #336699;
 } 
+
+.comments {
+	margin-bottom: 30px;
+}
 
 #footer {
 	margin-top: 40px;

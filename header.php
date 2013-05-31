@@ -4,7 +4,7 @@
 <!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <title><?php bloginfo('name'); ?></title>
+        <title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
 
         <!-- META -->
         <meta charset="utf-8">
@@ -31,7 +31,6 @@
 
         <!-- MODERNIZR -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-
         
     </head>
     <body <?php body_class(); ?>>
