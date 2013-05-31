@@ -27,11 +27,10 @@
 
         <link rel="stylesheet" href="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/css/grid.css">
 
-        <link rel="stylesheet" href="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/css/normalize.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
 
         <!-- MODERNIZR -->
-
-        <script src="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
         
     </head>
