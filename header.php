@@ -11,7 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
         <meta name="google-site-verification" content="">
-        <link rel=”author” href=”https://plus.google.com/110545419521358863582/“ />
+        <link rel="author" href="https://plus.google.com/110545419521358863582/posts/" />
 
         <!-- RSS -->
         <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
