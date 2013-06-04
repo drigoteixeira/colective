@@ -11,7 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
         <meta name="google-site-verification" content="">
-        <meta name="author" content="Rodrigo Teixeira" />
+        <link rel=”author” href=”https://plus.google.com/110545419521358863582/“ />
 
         <!-- RSS -->
         <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
@@ -24,9 +24,7 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/style.css">
-
         <link rel="stylesheet" href="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/css/grid.css">
-
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
 
         <!-- MODERNIZR -->
