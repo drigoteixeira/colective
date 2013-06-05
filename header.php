@@ -6,29 +6,51 @@
     <head>
         <title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
 
-        <!-- META -->
+        <!-- METAS -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <meta name="google-site-verification" content="">
+        
+
+        <!-- WINDOWS 8 PINNED SITE -->
+        <meta name="msapplication-TileImage" content="">
+        <meta name="msapplication-TileColor" content="">
+        <meta name="application-name" content="">
+
+        <!-- FACEBOOK -->
+        <meta property="fb:app_id" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+
+        <!-- GOOGLE -->
         <link rel="author" href="https://plus.google.com/110545419521358863582/posts/" />
+        <meta name="google-site-verification" content="">
+
+        <!-- FAVICONS -->
+        <link rel="icon" href="favicon.ico">
+        <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/wp-content/themes/colective/main.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
 
         <!-- RSS -->
         <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 
-        <!-- FAVICONS -->
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="apple-touch-icon" href="apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/style.css">
-        <link rel="stylesheet" href="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/css/grid.css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
-
-        <!-- MODERNIZR -->
+        <!-- SCRIPTS -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+        <!-- Respond -->
+        <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <![endif]-->
         
     </head>
     <body <?php body_class(); ?>>
