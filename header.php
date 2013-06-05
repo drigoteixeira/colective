@@ -12,7 +12,6 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         
-
         <!-- WINDOWS 8 PINNED SITE -->
         <meta name="msapplication-TileImage" content="">
         <meta name="msapplication-TileColor" content="">
