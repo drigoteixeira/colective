@@ -11,6 +11,28 @@ function colective_setup() {
 	add_theme_support('post-thumbnails');
 	set_post_thumbnail_size( 600, 9999 ); 
 
+    // Remove itens da função wp_head();
+    remove_action('wp_head', 'feed_links', 2);
+    remove_action('wp_head', 'feed_links_extra', 3);
+    remove_action('wp_head', 'rsd_link');
+    remove_action('wp_head', 'wlwmanifest_link');
+    remove_action('wp_head', 'index_rel_link');
+    remove_action('wp_head', 'parent_post_rel_link');
+    remove_action('wp_head', 'start_post_rel_link');
+    remove_action('wp_head', 'adjacent_posts_rel_link');
+    remove_action('wp_head', 'check_and_publish_future_post');
+    remove_action('wp_head', 'wp_print_styles');
+    remove_action('wp_head', 'wp_generator');
+    remove_action('wp_head', 'rel_canonical');
+    remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
+
+
+    /* Remove a Barra de Estilo de Admin */
+    add_filter( 'show_admin_bar', '__return_false' );
+    remove_action('wp_head', '_admin_bar_bump_cb');
+    wp_deregister_script('admin-bar');
+    wp_deregister_style('admin-bar');
+
 }
 
 add_action('after_setup_theme','colective_setup' );
@@ -18,6 +40,9 @@ add_action('after_setup_theme','colective_setup' );
 ?>
 
 <?php
+
+// PAGINACAO D
+
 function pagination($prev = '«', $next = '»') {
     global $wp_query, $wp_rewrite;
     $wp_query->query_vars['paged'] > 1 ? $current = $wp_query->query_vars['paged'] : $current = 1;

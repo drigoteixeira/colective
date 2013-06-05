@@ -22,6 +22,8 @@
         <link rel="author" href="https://plus.google.com/110545419521358863582/posts/" />
         <meta name="google-site-verification" content="">
 
+        <?php wp_head(); ?>
+
         <!-- FAVICONS -->
         <link rel="icon" href="favicon.ico">
         <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
