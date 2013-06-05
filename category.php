@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-			<div class="grid w640 content" role="main">
+			<div class="container-12 content" role="main">
 				<div class="row">
-					<div class="c12">
+					<div class="grid-12">
 
 						<?php if ( have_posts() ) : ?>
 						<h2 class="category-name"><span>#</span><?php single_cat_title(); ?></h2>
@@ -23,6 +23,7 @@
 					</div>
 				</div>
 				<?php endwhile; ?>
+				<div class="grid-12 pagination"><?php pagination('«', '»'); ?></div>
 			</div>
 
 <?php get_footer(); ?>

@@ -18,14 +18,6 @@
         <meta name="msapplication-TileColor" content="">
         <meta name="application-name" content="">
 
-        <!-- FACEBOOK -->
-        <meta property="fb:app_id" content="">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="">
-        <meta property="og:title" content="">
-        <meta property="og:description" content="">
-        <meta property="og:image" content="">
-
         <!-- GOOGLE -->
         <link rel="author" href="https://plus.google.com/110545419521358863582/posts/" />
         <meta name="google-site-verification" content="">
@@ -38,7 +30,6 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
 
@@ -48,20 +39,21 @@
         <!-- SCRIPTS -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
-        <!-- Respond -->
+        <!-- RESPOND -->
         <!--[if lt IE 9]>
         <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
         <![endif]-->
+
         
     </head>
     <body <?php body_class(); ?>>
     
     <div class="page">
     	
-    	<div class="grid w640">
-    		<header id="header" class="row">
-    			<div class="c12">
-    				<h1 id="logo"><a href="/blog/" title="<?php bloginfo('name');?>"><img src="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/img/picture.jpg" alt="Avatar de Rodrigo Teixeira" /></a></h1>
+    	<div class="container-12">
+    		<header id="header">
+    			<div class="grid-12">
+    				<h1 id="logo"><a href="/" title="<?php bloginfo('name');?>"><img src="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/img/picture.jpg" alt="Avatar de Rodrigo Teixeira" /></a></h1>
     				<p><span>Drigo Teixeira</span> é UI Designer &amp; Entusiasta de AI</p>
     			</div>
     		</header>
