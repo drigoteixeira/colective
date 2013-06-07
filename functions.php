@@ -27,11 +27,6 @@ function colective_setup() {
     // remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
 
 
-    /* Remove a Barra de Estilo de Admin */
-    add_filter( 'show_admin_bar', '__return_false' );
-    remove_action('wp_head', '_admin_bar_bump_cb');
-    wp_deregister_script('admin-bar');
-    wp_deregister_style('admin-bar');
 
 }
 
