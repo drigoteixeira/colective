@@ -54,7 +54,7 @@
     	<div class="container-12">
     		<header id="header">
     			<div class="grid-12">
-    				<h1 id="logo"><a href="/" title="<?php bloginfo('name');?>"><img src="http://localhost/~rodrigoteixeira/local.drigoteixeira.blog/wp-content/themes/colective/img/picture.jpg" alt="Avatar de Rodrigo Teixeira" /></a></h1>
+    				<h1 id="logo"><a href="/" title="<?php bloginfo('name');?>"><img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/colective/img/picture.jpg" alt="Avatar de Rodrigo Teixeira" /></a></h1>
     				<p><span>Drigo Teixeira</span> é UI Designer &amp; Entusiasta de AI</p>
     			</div>
     		</header>

@@ -63,4 +63,5 @@ function pagination($prev = '«', $next = '»') {
 
     echo paginate_links( $pagination );
 };
+
 ?>
