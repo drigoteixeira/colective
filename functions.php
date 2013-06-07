@@ -20,11 +20,11 @@ function colective_setup() {
     remove_action('wp_head', 'parent_post_rel_link');
     remove_action('wp_head', 'start_post_rel_link');
     remove_action('wp_head', 'adjacent_posts_rel_link');
-    remove_action('wp_head', 'check_and_publish_future_post');
+    // remove_action('wp_head', 'check_and_publish_future_post');
     remove_action('wp_head', 'wp_print_styles');
     remove_action('wp_head', 'wp_generator');
     remove_action('wp_head', 'rel_canonical');
-    remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
+    // remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
 
 
     /* Remove a Barra de Estilo de Admin */
@@ -41,7 +41,7 @@ add_action('after_setup_theme','colective_setup' );
 
 <?php
 
-// PAGINACAO D
+// PAGINACAO
 
 function pagination($prev = '«', $next = '»') {
     global $wp_query, $wp_rewrite;
