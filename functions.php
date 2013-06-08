@@ -28,6 +28,9 @@ function colective_setup() {
     remove_action('wp_head', 'rel_canonical');
     remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
 
+    // Remover barra de admin das paginais
+    show_admin_bar(false);
+
 }
 
 endif;
