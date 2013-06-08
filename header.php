@@ -10,6 +10,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
+
+        <?php wp_head(); ?>
         
         <!-- WINDOWS 8 PINNED SITE -->
         <meta name="msapplication-TileImage" content="">
@@ -20,7 +22,7 @@
         <link rel="author" href="https://plus.google.com/110545419521358863582/posts/" />
         <meta name="google-site-verification" content="">
 
-        <?php wp_head(); ?>
+        
 
         <!-- FAVICONS -->
         <link rel="icon" href="favicon.ico">
