@@ -1,11 +1,8 @@
 <?php
 
-// Roda o setup do tema depois do Wordpress carregar o gerenciador
 add_action('after_setup_theme','colective_setup' );
 
 if ( ! function_exists( 'colective_setup' ) ):
-
-// CONFIGURAÇÕES DO TEMA
 
 function colective_setup() {
 
@@ -63,5 +60,7 @@ function pagination($prev = '«', $next = '»') {
 function fix_links($input) {
     $normalized = str_replace( home_url() . '/', '/', $input);
     $normalized = str_replace( home_url(), '/', '/', $normalized);
+    return $normalized;
 }
+
 ?>
