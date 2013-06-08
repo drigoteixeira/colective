@@ -63,6 +63,5 @@ function pagination($prev = '«', $next = '»') {
 function fix_links($input) {
     $normalized = str_replace( home_url() . '/', '/', $input);
     $normalized = str_replace( home_url(), '/', '/', $normalized);
-    
-
+}
 ?>
