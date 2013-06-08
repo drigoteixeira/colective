@@ -1,5 +1,10 @@
 <?php
 
+// Roda o setup do tema depois do Wordpress carregar o gerenciador
+add_action('after_setup_theme','colective_setup' );
+
+if ( ! function_exists( 'colective_setup' ) ):
+
 // CONFIGURAÇÕES DO TEMA
 
 function colective_setup() {
@@ -11,13 +16,25 @@ function colective_setup() {
 	add_theme_support('post-thumbnails');
 	set_post_thumbnail_size( 600, 9999 ); 
 
+    // Remove itens da função wp_head();
+    remove_action('wp_head', 'feed_links', 2);
+    remove_action('wp_head', 'feed_links_extra', 3);
+    remove_action('wp_head', 'rsd_link');
+    remove_action('wp_head', 'wlwmanifest_link');
+    remove_action('wp_head', 'index_rel_link');
+    remove_action('wp_head', 'parent_post_rel_link');
+    remove_action('wp_head', 'start_post_rel_link');
+    remove_action('wp_head', 'adjacent_posts_rel_link');
+    remove_action('wp_head', 'check_and_publish_future_post');
+    remove_action('wp_head', 'wp_print_styles');
+    remove_action('wp_head', 'wp_generator');
+    remove_action('wp_head', 'rel_canonical');
+    remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
+
 }
 
-add_action('after_setup_theme','colective_setup' );
+endif;
 
-?>
-
-<?php
 
 // PAGINACAO
 
@@ -41,5 +58,11 @@ function pagination($prev = '«', $next = '»') {
 
     echo paginate_links( $pagination );
 };
+
+// LINK CANONICAL
+function fix_links($input) {
+    $normalized = str_replace( home_url() . '/', '/', $input);
+    $normalized = str_replace( home_url(), '/', '/', $normalized);
+    
 
 ?>
