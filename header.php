@@ -30,7 +30,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
 
     <!-- RSS -->
