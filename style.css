@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3.6em;
+    font-size: 4em;
     margin: 0.83em 0;
     text-align: center;
     line-height: 1em;
@@ -87,6 +87,17 @@ p {
 	line-height: 2em;
 }
 
+.post ol {
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.post ol li {
+	margin-bottom: 10px;
+	line-height: 2em;
+}
+
+
 blockquote {
 	font-style: italic;
 	border-left: 2px solid #f39354;
@@ -111,7 +122,7 @@ body {
 	display: block;
 	font-style: italic;
 	color: #999;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .category-name span { color: #f39354;}
@@ -120,7 +131,6 @@ body {
 	font-family: 'Bree Serif', serif;
 	font-style: italic;
 	color: #999;
-	text-align: center;
 }
 
 .categories span {
@@ -142,6 +152,27 @@ body {
 	padding: 30px 0;
 	margin-bottom: 30px;
 }
+
+.pagination {
+	margin-bottom: 40px;
+}
+
+.page-numbers {
+	border: 1px solid #ccc;
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding: auto;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 2px;
+	font-family: 'Bree Serif', serif;
+	font-style: italic;
+}
+
+.current { color: #999; }
 
 #header {
 	text-align: center;
@@ -166,9 +197,7 @@ h1#logo {
 	width: 170px;
 }
 
-#header h1#logo a:hover {
-	
-}
+
 
 #header p {	font-size: 14px; color: #666;}
 #header span {
@@ -187,6 +216,9 @@ footer p {
 	text-align: center;
 	font-size: 12px;
 }
+
+
+
 
 /********************************************************************************************* 
 
