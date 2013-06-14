@@ -6,10 +6,10 @@
 			<div class="grid-12">
 				<section class="posts">
 					<article class="post">
+						<h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 						<div class="post-meta">
 							<span class="post-date"><?php the_time('j M, Y') ?></span>
 						</div>
-						<h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 						<div class="post-content">
 							<?php the_content(); ?>
 						</div>
