@@ -14,9 +14,8 @@
     <?php wp_head(); ?>
     
 
-    <!-- GOOGLE -->
+    <!-- GOOGLE+ -->
     <link rel="author" href="https://plus.google.com/u/0/110545419521358863582" />
-    <meta name="google-site-verification" content="yDJgjNuyB1LON1HIq6aXW3Pv2pieL8002dwz9aBiIV8">
 
     <!-- FAVICONS -->
     <link rel="icon" href="favicon.ico">
