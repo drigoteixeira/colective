@@ -13,21 +13,13 @@
 
     <?php wp_head(); ?>
     
-    <!-- WINDOWS 8 PINNED SITE -->
-    <meta name="msapplication-TileImage" content="">
-    <meta name="msapplication-TileColor" content="">
-    <meta name="application-name" content="">
 
     <!-- GOOGLE -->
     <link rel="author" href="https://plus.google.com/110545419521358863582/posts/" />
-    <meta name="google-site-verification" content="">
+    <meta name="google-site-verification" content="yDJgjNuyB1LON1HIq6aXW3Pv2pieL8002dwz9aBiIV8">
 
     <!-- FAVICONS -->
     <link rel="icon" href="favicon.ico">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
