@@ -120,6 +120,11 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+#logo img {
+	border: 5px solid #FFF;
+    border-radius: 15px 15px 15px 15px;
+}
+
 .post-date {
 	font-family: 'Open Sans', sans-serif;
 	display: block;
