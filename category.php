@@ -23,7 +23,11 @@
 					</div>
 				</div>
 				<?php endwhile; ?>
-				<div class="grid-12 pagination"><?php pagination('«', '»'); ?></div>
+				<div class="grid-12">
+					<div class="pagination">
+						<?php pagination('«', '»'); ?>
+					</div>
+				</div>
 			</div>
 
 <?php get_footer(); ?>
