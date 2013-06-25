@@ -48,7 +48,7 @@ function pagination($prev = '&larr; ', $next = '&rarr;') {
         'current' => $current,
         'prev_text' => __($prev),
         'next_text' => __($next),
-        'type' => 'list'
+        'type' => 'plain'
 );
     if( $wp_rewrite->using_permalinks() )
         $pagination['base'] = user_trailingslashit( trailingslashit( remove_query_arg( 's', get_pagenum_link( 1 ) ) ) . 'page/%#%/', 'paged' );
