@@ -178,8 +178,9 @@ body {
 
 
 .page-numbers {
-	border: 1px solid #f39354;
+	background-color: #f39354;
 	border-radius: 1000px 1000px 1000px 1000px;
+	color: #fff;
 	display: block;
 	float: left;
 	width: 30px;
@@ -193,7 +194,7 @@ body {
 	font-style: italic;
 }
 
-.current { color: #666; }
+.current { color: #666; background-color: #fff; border: 1px solid #f39354; }
 
 #header {
 	text-align: center;
