@@ -17,7 +17,7 @@
 <link rel="author" href="https://plus.google.com/u/0/110545419521358863582" />
 
 <!-- FAVICONS -->
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 
 <!-- CSS -->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
