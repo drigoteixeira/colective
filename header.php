@@ -13,9 +13,6 @@
 
 <?php wp_head(); ?>
     
-<!-- GOOGLE+ -->
-<link rel="author" href="https://plus.google.com/u/0/110545419521358863582" />
-
 <!-- FAVICONS -->
 <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 
