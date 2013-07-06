@@ -12,7 +12,7 @@
                         
                         <div class="row">
                             <div class="c12">
-                                <p>Artigos produzidos por <a href="/" title="Drigo Teixeira">Drigo Teixeira</a></p>
+                                <p>Artigos produzidos por <a href="/">Drigo Teixeira</a></p>
                                 <p><em><a href="http://www.youtube.com/watch?v=UF8uR6Z6KLc">Stay hungry. Stay Foolish</a></em></p>
                             </div>
                         </div>
