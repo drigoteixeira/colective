@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="pt-br"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
 <head>
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 
@@ -40,7 +40,7 @@
     	<div class="container-12">
     		<header id="header">
     			<div class="grid-12">
-    				<h1 id="logo"><a href="/blog/" title="<?php bloginfo('name');?>"><img src="<?php echo get_template_directory_uri(); ?>/img/picture.jpg" alt="Avatar de Rodrigo Teixeira" /></a></h1>
+    				<h1 id="logo"><a href="/blog/" title="<?php bloginfo('name');?>"><img src="<?php echo get_template_directory_uri(); ?>/img/picture.jpg" alt="Rodrigo Teixeira" /></a></h1>
     				<p><span>Drigo Teixeira</span> é UI Designer &amp; Entusiasta de AI</p>
     			</div>
     		</header>
