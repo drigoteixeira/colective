@@ -41,6 +41,6 @@
     		<header id="header">
     			<div class="grid-12">
     				<h1 id="logo"><a href="/blog/" title="<?php bloginfo('name');?>"><img src="<?php echo get_template_directory_uri(); ?>/img/picture.jpg" alt="Rodrigo Teixeira" /></a></h1>
-    				<p><span>Drigo Teixeira</span> é UI Designer &amp; Entusiasta de AI</p>
+    				<p><span><a href="/">Drigo Teixeira</a></span> é UI Designer &amp; Entusiasta de AI</p>
     			</div>
     		</header>
