@@ -10,6 +10,9 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 TIPOGRAFIA
 ========================================================================== */
 
+$main-color: #222;
+$light-gray: #999;
+
 @import url(http://fonts.googleapis.com/css?family=Bree+Serif);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -33,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	color: #222;
+	color: $main-color;
 	text-decoration: none;
 } 
 
@@ -44,7 +47,7 @@ h1 {
 }
 
 h2 {
-	color: #222;
+	color: $main-color;
     font-size: 2.6em;
     margin: .5em 0;
     line-height: 1em;
@@ -56,7 +59,7 @@ h2 {
     margin: 0.5em 0;
     text-align: center;
     line-height: 1em;
-    color: #222;
+    color: $main-color;
 }
 
 h3 {
@@ -121,7 +124,7 @@ body {
 	background: #fff;
 	border-top: 10px solid #f39354;
 	font-family: 'Open Sans', sans-serif;
-	color: #222;
+	color: $main-color;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -134,7 +137,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	display: block;
 	font-style: italic;
-	color: #999;
+	color: $light-gray;
 	font-size: 14px;
 	text-align: center;
 }
@@ -153,7 +156,7 @@ body {
 .categories {
 	font-family: 'Bree Serif', serif;
 	font-style: italic;
-	color: #999;
+	color: $light-gray;
 }
 
 .categories span {
@@ -163,7 +166,7 @@ body {
 
 .categories a {
 	text-decoration: none;
-	color: #999;
+	color: $light-gray;
 }
 
 .categories a:hover {
@@ -199,7 +202,7 @@ body {
 	font-style: italic;
 }
 
-.current { color: #999; background-color: #fff; border: 1px solid #f39354; }
+.current { color: $light-gray; background-color: #fff; border: 1px solid #f39354; }
 
 #header {
 	text-align: center;
@@ -283,7 +286,7 @@ h2 {
     margin: 0.83em 0;
     text-align: center;
     line-height: 1em;
-    color: #222;
+    color: $main-color;
 }
 
 }
