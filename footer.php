@@ -16,6 +16,19 @@
                                 <p><em><a href="http://www.youtube.com/watch?v=UF8uR6Z6KLc">Stay hungry. Stay Foolish</a></em></p>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="c12">
+                                <ul class="social-networks">
+                                    <li class="facebook"><a href="http://www.facebook.com/drigoteixeira" title="Facebook">Facebook</a></li>
+                                    <li class="linkedin"><a href="http://br.linkedin.com/in/drigoteixeira" title="LinkedIn">LinkedIn</a></li>
+                                    <li class="flickr"><a href="http://www.flickr.com/drigoteixeira" title="Flickr">Flickr</a></li>
+                                     <li class="instagram"><a href="http://www.instagram.com/drigoteixeira" title="Instagram">Instagram</a></li>
+                                    <li class="rss"><a href="http://feeds.feedburner.com/rodrigoteixeira" title="RSS">RSS</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
                      </footer>
                 </div>
         </div><!-- FIM DO PAGE -->
