@@ -13,18 +13,32 @@ TIPOGRAFIA
 @import url(http://fonts.googleapis.com/css?family=Bree+Serif);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+
+/* VARIÁVEIS */
+
 $main-color: #222;
+
+$lighter-gray: #f5f5f5;
 $light-gray: #999;
+$medium-gray: #ccc;
+$dark-gray: #444;
+
+$white-color: #fff;
+$link-color: #2BA1DC;
+$hover-color: #2E4D5C;
+$orange-color: #f39354;
+
 $main-font: "Bree Serif", serif;
 $second-font: "Open Sans", sans-serif;
 
+
 a {
-	color: #2BA1DC;
+	color: $link-color;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #2E4D5C;
+	color: $hover-color;
 	text-decoration: underline;
 	-webkit-transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
 	-moz-transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
@@ -111,11 +125,10 @@ p {
 
 blockquote {
 	font-style: italic;
-	border-left: 5px solid #f39354;
+	border-left: 5px solid $orange-color;
 	margin-left: 0;
 	padding-left: 20px;
 	line-height: 1.6em;
-	color: #666;
 }
 
 /* ==========================================================================
@@ -123,15 +136,15 @@ LAYOUT
 ========================================================================== */
 
 body {
-	background: #fff;
-	border-top: 10px solid #f39354;
+	background: $white-color;
+	border-top: 10px solid $orange-color;
 	font-family: $second-font;
 	color: $main-color;
 	-webkit-font-smoothing: antialiased;
 }
 
 #logo img {
-	border: 2px solid #FFF;
+	border: 2px solid $white-color;
     border-radius: 1000px 1000px 1000px 1000px;
 }
 
@@ -153,17 +166,23 @@ body {
 	font-style: italic;
 }
 
-.category-name span { color: #f39354;}
+.category-name span, .categories span { color: $orange-color;}
+
+.category-name {
+	display: block;
+	margin: 40px 0;
+	font-size: 2.2em;
+	font-family: $main-font;
+	font-style: italic;
+	color: $light-gray;
+	text-align: center;
+	letter-spacing: -1px;
+}
 
 .categories {
 	font-family: $main-font;
 	font-style: italic;
 	color: $light-gray;
-}
-
-.categories span {
-	color: #f39354;
-	font-size: 1em;
 }
 
 .categories a {
@@ -182,15 +201,17 @@ body {
 }
 
 .pagination {
-	margin-bottom: 40px;
-	float: right;
+	width: 30%;
+	margin: 0 auto 40px;
+	overflow: hidden;
+
 }
 
 
 .page-numbers {
-	background-color: #F78210;
-	border-radius: 1000px 1000px 1000px 1000px;
-	color: #fff;
+	background-color: $lighter-gray;
+	border-radius: 5px;
+	color: $light-gray;
 	display: block;
 	float: left;
 	width: 30px;
@@ -204,7 +225,7 @@ body {
 	font-style: italic;
 }
 
-.current { color: $light-gray; background-color: #fff; border: 1px solid #f39354; }
+.current, .page-numbers:hover  { color: $white-color; background-color: $orange-color; }
 
 #header {
 	text-align: center;
@@ -229,9 +250,9 @@ h1#logo {
 	width: 170px;
 }
 
-#header p {	font-size: 14px; color: #666;}
+#header p {	font-size: 14px; color: $dark-gray;}
 #header span {
-	color: #2BA1DC;
+	color: $link-color;
 } 
 
 .comments {
@@ -335,11 +356,15 @@ GRID 760
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 2.4em;
     margin: 0.83em 0;
     text-align: center;
     line-height: 1em;
     color: $main-color;
+}
+
+.single h2 {
+	font-size: 2.4em;
 }
 
 }
