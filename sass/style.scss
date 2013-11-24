@@ -10,13 +10,13 @@ Description: Tema padrão do blog pessoal de Rodrigo Teixeira
 TIPOGRAFIA
 ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic,900italic);
 
 
 /* VARIÁVEIS */
 
-$main-color: #222;
+$main-color: #444;
 
 $lighter-gray: #f5f5f5;
 $light-gray: #999;
@@ -28,8 +28,8 @@ $link-color: #2BA1DC;
 $hover-color: #2E4D5C;
 $orange-color: #f39354;
 
-$main-font: "Bree Serif", serif;
-$second-font: "Open Sans", sans-serif;
+$main-font: 'Lato', sans-serif;
+$second-font: 'Lato', sans-serif;
 
 
 a {
@@ -47,7 +47,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $main-font;
-	font-weight: normal;
+	font-weight: 900;
 	letter-spacing: -1px;
 }
 
@@ -64,14 +64,15 @@ h1 {
 
 h2 {
 	color: $main-color;
-    font-size: 2.6em;
+    font-size: 2.8em;
     margin: .5em 0;
     line-height: 1em;
     text-align: center;
+    letter-spacing: -2px;
 }
 
 .single h2 {
-    font-size: 3.6em;
+    font-size: 3.2em;
     margin: 0.5em 0;
     text-align: center;
     line-height: 1em;
@@ -99,7 +100,8 @@ h6 {
 }
 
 p {
-	line-height: 2em;
+	line-height: 2.2em;
+	font-size: 18px;
 }
 
 .post ul {
@@ -135,12 +137,15 @@ blockquote {
 LAYOUT
 ========================================================================== */
 
+html {
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
 body {
 	background: $white-color;
 	border-top: 10px solid $orange-color;
 	font-family: $second-font;
 	color: $main-color;
-	-webkit-font-smoothing: antialiased;
 }
 
 #logo img {
@@ -150,10 +155,11 @@ body {
 
 .post-date {
 	font-family: $second-font;
+	font-weight: 400;
 	display: block;
 	font-style: italic;
 	color: $light-gray;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: center;
 }
 
@@ -292,7 +298,6 @@ footer p {
 	background: url(../img/social.png) no-repeat;
 	display: block;
 	position: relative;
-
 }
 
 .social-networks a:hover {
