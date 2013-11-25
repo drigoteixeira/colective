@@ -308,21 +308,11 @@ footer p {
 	opacity: 0.6;
 }
 
-.social-networks li.facebook a {
-	background-position: 0 0;
-}
-.social-networks li.linkedin a {
-	background-position: -35px 0;
-}
-.social-networks li.flickr a {
-	background-position: -70px 0;
-}
-.social-networks li.instagram a {
-	background-position: -105px 0;
-}
-.social-networks li.rss a {
-	background-position: -140px 0;
-}
+.social-networks li.facebook a { background-position: 0 0; }
+.social-networks li.linkedin a { background-position: -35px 0; }
+.social-networks li.flickr a { background-position: -70px 0; }
+.social-networks li.instagram a { background-position: -105px 0;}
+.social-networks li.rss a { background-position: -140px 0; }
 
 /* ==========================================================================
 GRID 1200
@@ -347,30 +337,31 @@ GRID 760
 ========================================================================== */
 
 @media only screen and (max-width: 719px) {
-.container-12 {
-	width: 90%;
-}
- .grid-12 {
-	width:100%;
-	margin-left: 0px;
-	margin-right: 0px;
-}
 
-.container-12 .grid-12 {
-	width: 100%;
-}
+	.container-12 {
+		width: 90%;
+	}
+	 .grid-12 {
+		width:100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 
-h2 {
-    font-size: 2.4em;
-    margin: 0.83em 0;
-    text-align: center;
-    line-height: 1em;
-    color: $main-color;
-}
+	.container-12 .grid-12 {
+		width: 100%;
+	}
 
-.single h2 {
-	font-size: 2.4em;
-}
+	h2 {
+	    font-size: 2.4em;
+	    margin: 0.83em 0;
+	    text-align: center;
+	    line-height: 1em;
+	    color: $main-color;
+	}
+
+	.single h2 {
+		font-size: 2.4em;
+	}
 
 }
 
@@ -403,4 +394,3 @@ VIDEO RESPONSIVO
 	width: 100%;
 	height: 100%;
 }
-
