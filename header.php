@@ -4,7 +4,7 @@
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
 <head>
- <title><?php bloginfo('name'); ?> <?php wp_title("",true); ?></title>
+ <title><?php wp_title("",true); ?></title>
 
 
 <!-- METAS -->
