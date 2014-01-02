@@ -14,7 +14,7 @@ TIPOGRAFIA
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic,900italic);
 
 
-/* VARIÁVEIS */
+/* SETINGS */
 
 $main-color: #444;
 
@@ -131,6 +131,12 @@ blockquote {
 	margin-left: 0;
 	padding-left: 20px;
 	line-height: 1.6em;
+}
+
+pre {
+	background-color: $lighter-gray;
+	padding: 10px 8px;
+	color: $main-color;
 }
 
 /* ==========================================================================
