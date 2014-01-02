@@ -104,24 +104,15 @@ p {
 	font-size: 18px;
 }
 
-.post ul {
+.post ul, .post ol {
 	margin-left: 20px;
 	padding-left: 0;
 }
 
-.post ul li {
+.post ul li, .post ol li {
 	margin-bottom: 10px;
 	line-height: 2em;
-}
-
-.post ol {
-	margin-left: 20px;
-	padding-left: 0;
-}
-
-.post ol li {
-	margin-bottom: 10px;
-	line-height: 2em;
+	font-size: 18px;
 }
 
 
