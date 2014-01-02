@@ -11,7 +11,7 @@ TIPOGRAFIA
 ========================================================================== */
 
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 
 
 /* SETINGS */
@@ -28,9 +28,6 @@ $link-color: #2BA1DC;
 $hover-color: #2E4D5C;
 $orange-color: #f39354;
 
-$main-font: 'Lato', sans-serif;
-$second-font: 'Lato', sans-serif;
-
 
 a {
 	color: $link-color;
@@ -45,10 +42,10 @@ a:hover {
 	transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: $main-font;
-	font-weight: 900;
-	letter-spacing: -1px;
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -58,51 +55,42 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+  margin-top: 0;
+  font-size: 3.998em;
 }
 
 h2 {
 	color: $main-color;
-    font-size: 2.4em;
+    font-size: 2.827em;
     margin: .5em 0;
     line-height: 1em;
     text-align: center;
     letter-spacing: -2px;
 }
 
+small, .font_small {font-size: 0.707em;}
+
 .single h2 {
     font-size: 3em;
-    margin: 0.5em 0;
     text-align: center;
     line-height: 1em;
     color: $main-color;
 }
 
-h3 {
-    font-size: 1.8em;
-    margin: .4em 0;
-}
+h3 { font-size: 1.999em }
 
-h4 {
-    font-size: 1em;
-    margin: 1.33em 0;
-}
+h4 { font-size: 1.414em; }
 
-h5 {
-    font-size: 0.83em;
-    margin: 1.67em 0;
-}
+h5 { font-size: 0.83em; }
 
-h6 {
-    font-size: 0.67em;
-    margin: 2.33em 0;
-}
+h6 { font-size: 0.67em; }
 
 p {
 	line-height: 2.2em;
-	font-size: 18px;
+	margin-bottom: 1.3em;
 }
+
+small, .font_small { font-size: 0.707em; }
 
 .post ul, .post ol {
 	margin-left: 20px;
@@ -140,8 +128,11 @@ html {
 
 body {
 	background: $white-color;
+	font-size: 1.125em;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	line-height: 1.45;
 	border-top: 10px solid $orange-color;
-	font-family: $second-font;
 	color: $main-color;
 }
 
@@ -151,7 +142,6 @@ body {
 }
 
 .post-date {
-	font-family: $second-font;
 	font-weight: 400;
 	display: block;
 	font-style: italic;
@@ -175,7 +165,6 @@ body {
 	display: block;
 	margin: 40px 0;
 	font-size: 2.2em;
-	font-family: $main-font;
 	font-style: italic;
 	color: $light-gray;
 	text-align: center;
@@ -183,7 +172,6 @@ body {
 }
 
 .categories {
-	font-family: $main-font;
 	font-style: italic;
 	color: $light-gray;
 }
@@ -224,7 +212,6 @@ body {
 	font-size: 14px;
 	text-align: center;
 	margin-right: 2px;
-	font-family: $main-font;
 	font-style: italic;
 }
 
