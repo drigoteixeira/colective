@@ -46,6 +46,7 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -71,7 +72,7 @@ h2 {
 small, .font_small {font-size: 0.707em;}
 
 .single h2 {
-    font-size: 3.998em;
+    font-size: 3.2em;
     text-align: center;
     color: $main-color;
 }
@@ -238,7 +239,7 @@ h1#logo {
 	width: 170px;
 }
 
-#header p {	font-size: 14px; color: $dark-gray;}
+#header p {	font-size: 12px; color: $dark-gray;}
 #header span {
 	color: $link-color;
 } 
