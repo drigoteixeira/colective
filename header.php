@@ -19,7 +19,7 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css">
 
 <!-- RSS -->
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="http://feeds.feedburner.com/rodrigoteixeira" />
