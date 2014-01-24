@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"> <![endif]-->
 <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="pt-br"> <![endif]-->
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="pt-br"> <![endif]-->
@@ -26,13 +26,11 @@
 <!-- SCRIPTS -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 
-
 <!-- RESPOND -->
 <!--[if lt IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
 <![endif]-->
 
-    
 </head>
 <body <?php body_class(); ?>>
     
