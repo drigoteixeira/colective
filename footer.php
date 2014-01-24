@@ -44,6 +44,6 @@
           ga('create', 'UA-32844537-1', 'drigoteixeira.com');
           ga('send', 'pageview');
 
-        </script>
+        </script>   
     </body>
 </html>
