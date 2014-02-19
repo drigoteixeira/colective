@@ -13,7 +13,7 @@ function colective_setup() {
 	add_theme_support('post-thumbnails');
 	set_post_thumbnail_size( 600, 9999 ); 
 
-    // Remove itens da função wp_head();
+    // Remove itens da função wp_head();        
     remove_action('wp_head', 'feed_links', 2);
     remove_action('wp_head', 'feed_links_extra', 3);
     remove_action('wp_head', 'rsd_link');
