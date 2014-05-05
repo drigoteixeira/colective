@@ -11,12 +11,12 @@ TIPOGRAFIA
 ========================================================================== */
 
 
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 
 
 /* SETINGS */
 
-$main-color: #444;
+$main-color: #222;
 
 $lighter-gray: #f5f5f5;
 $light-gray: #999;
@@ -30,16 +30,16 @@ $orange-color: #ff851b;
 
 
 a {
-        color: $link-color;
-        text-decoration: none;
+    color: $link-color;
+    text-decoration: none;
 }
 
 a:hover {
-        color: $hover-color;
-        text-decoration: underline;
-        -webkit-transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
-        -moz-transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
-        transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
+    color: $hover-color;
+    text-decoration: underline;
+    -webkit-transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
+    -moz-transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
+    transition:color 0.1s ease-in-out 0s,border 0.1s ease-in-out;
 }
 
 h1, h2, h3, h4, h4, h6 {
@@ -47,7 +47,6 @@ h1, h2, h3, h4, h4, h6 {
   font-weight: inherit;
   line-height: 1.2;
   letter-spacing: -1px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
 }
 
@@ -63,8 +62,8 @@ h1 {
 }
 
 h2 {
-        color: $main-color;
-    font-size: 2.827em;
+    color: $main-color;
+    font-size: 3.4em;
     margin: .5em 0;
     line-height: 1em;
     text-align: center;
@@ -74,7 +73,7 @@ h2 {
 small, .font_small {font-size: 0.707em;}
 
 .single h2 {
-    font-size: 3.2em;
+    font-size: 3.4em;
     text-align: center;
     color: $main-color;
 }
@@ -88,13 +87,15 @@ h5 { font-size: 0.83em; }
 h6 { font-size: 0.67em; }
 
 p {
-        line-height: 2em;
+        font-size: 1.4em;
+        line-height: 1.8em;
         margin-bottom: 1.3em;
 }
 
 small, .font_small { font-size: 0.707em; }
 
 .post ul, .post ol {
+        font-size: 1.4em;
         margin-left: 20px;
         padding-left: 0;
 }
@@ -124,17 +125,17 @@ LAYOUT
 ========================================================================== */
 
 html {
-        -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
-        background: $white-color;
-        font-size: 1em;
-        font-family: 'Libre Baskerville', serif;
-        font-weight: 400;
-        line-height: 1.45;
-        border-top: 10px solid $orange-color;
-        color: $main-color;
+    background: $white-color;
+    font-size: 1em;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    line-height: 1.45;
+    border-top: 10px solid $orange-color;
+    color: $main-color;
 }
 
 #logo img {
@@ -147,7 +148,7 @@ body {
         display: block;
         font-style: italic;
         color: $light-gray;
-        font-size: 16px;
+        font-size: 1.4em;
         text-align: center;
 }
 
@@ -187,33 +188,33 @@ body {
 }
 
 .posts {
-        border-bottom: 1px dotted #ccc;
-        padding: 30px 0;
-        margin-bottom: 30px;
+    border-bottom: 1px dotted #ccc;
+    padding: 30px 0;
+    margin-bottom: 30px;
 }
 
 .pagination {
-        width: 30%;
-        margin: 0 auto 40px;
-        overflow: hidden;
+    width: 40%;
+    margin: 0 auto 40px;
+    overflow: hidden;
 
 }
 
 
 .page-numbers {
-        background-color: $lighter-gray;
-        border-radius: 5px;
-        color: $light-gray;
-        display: block;
-        float: left;
-        width: 30px;
-        height: 30px;
-        padding: auto;
-        line-height: 30px;
-        font-size: 14px;
-        text-align: center;
-        margin-right: 2px;
-        font-style: italic;
+    background-color: $lighter-gray;
+    border-radius: 5px;
+    color: $light-gray;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding: auto;
+    line-height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    margin-right: 2px;
+    font-style: italic;
 }
 
 .current, .page-numbers:hover { color: $white-color; background-color: $orange-color; }
@@ -229,8 +230,8 @@ h1#logo {
 }
 
 #logo a {
-        display: block;
-        width: 90px;
+    display: block;
+    width: 90px;
     height: 90px;
     margin: 0 auto;
 }
@@ -241,7 +242,7 @@ h1#logo {
         width: 170px;
 }
 
-#header p {        font-size: 12px; color: $dark-gray;}
+#header p { font-size: 1em; color: $dark-gray;}
 #header span {
         color: $link-color;
 }
