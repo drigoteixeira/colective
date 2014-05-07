@@ -14,7 +14,7 @@
 							<?php the_content(); ?>
 						</div>
 						<div class="categories">
-							<p><span>#</span><?php the_category(', '); ?></p>
+							<p><?php the_category(', '); ?></p>
 						</div>
 					</article>
 				</section>

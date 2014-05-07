@@ -63,7 +63,7 @@ h1 {
 
 h2 {
     color: $main-color;
-    font-size: 3.4em;
+    font-size: 3em;
     margin: .5em 0;
     line-height: 1em;
     text-align: center;
@@ -73,7 +73,7 @@ h2 {
 small, .font_small {font-size: 0.707em;}
 
 .single h2 {
-    font-size: 3.4em;
+    font-size: 3em;
     text-align: center;
     color: $main-color;
 }
@@ -88,7 +88,7 @@ h6 { font-size: 0.67em; }
 
 p {
         font-size: 1.4em;
-        line-height: 1.8em;
+        line-height: 1.4em;
         margin-bottom: 1.3em;
 }
 
@@ -102,7 +102,7 @@ small, .font_small { font-size: 0.707em; }
 
 .post ul li, .post ol li {
         margin-bottom: 10px;
-        line-height: 2em;
+        line-height: 1.4em;
 }
 
 
@@ -144,11 +144,12 @@ body {
 }
 
 .post-date {
-        font-weight: 400;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        font-weight: 700;
         display: block;
-        font-style: italic;
         color: $light-gray;
-        font-size: 1.4em;
+        text-transform: uppercase;
+        font-size: .8em;
         text-align: center;
 }
 
@@ -166,16 +167,22 @@ body {
 .category-name {
         display: block;
         margin: 40px 0;
-        font-size: 2.2em;
-        font-style: italic;
         color: $light-gray;
         text-align: center;
-        letter-spacing: -1px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: .8em;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
 }
 
-.categories {
-        font-style: italic;
+.categories p {
         color: $light-gray;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: .8em;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
 }
 
 .categories a {
@@ -242,7 +249,12 @@ h1#logo {
         width: 170px;
 }
 
-#header p { font-size: 1em; color: $dark-gray;}
+#header p { 
+    font-size: .8em; 
+    font-weight: 700;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color: $light-gray;
+}
 #header span {
         color: $link-color;
 }
@@ -256,8 +268,11 @@ h1#logo {
 }
 
 footer p {
+        color: $light-gray;
         text-align: center;
-        font-size: 12px;
+        font-size: .8em; 
+        font-weight: 700;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 .social-networks {

@@ -5,7 +5,7 @@
 					<div class="grid-12">
 
 						<?php if ( have_posts() ) : ?>
-						<span class="category-name"><span>#</span><?php single_cat_title(); ?></span>
+						<span class="category-name"><span>ASSUNTO:</span><?php single_cat_title(); ?></span>
 						<?php endif; ?>
 						<?php while (have_posts()) : the_post(); ?>
 
