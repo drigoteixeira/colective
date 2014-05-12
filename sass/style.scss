@@ -12,6 +12,7 @@ TIPOGRAFIA
 
 
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 
 /* SETINGS */
@@ -88,7 +89,7 @@ h6 { font-size: 0.67em; }
 
 p {
         font-size: 1.4em;
-        line-height: 1.4em;
+        line-height: 1.6em;
         margin-bottom: 1.3em;
 }
 
@@ -144,7 +145,7 @@ body {
 }
 
 .post-date {
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        font-family: 'Open Sans', sans-serif;
         font-weight: 700;
         display: block;
         color: $light-gray;
@@ -169,7 +170,7 @@ body {
         margin: 40px 0;
         color: $light-gray;
         text-align: center;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: .8em;
         font-weight: 700;
         letter-spacing: 2px;
@@ -178,7 +179,7 @@ body {
 
 .categories p {
         color: $light-gray;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: .8em;
         font-weight: 700;
         letter-spacing: 2px;
@@ -252,7 +253,7 @@ h1#logo {
 #header p { 
     font-size: .8em; 
     font-weight: 700;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     color: $light-gray;
 }
 #header span {
@@ -270,9 +271,9 @@ h1#logo {
 footer p {
         color: $light-gray;
         text-align: center;
-        font-size: .8em; 
+        font-size: .7em; 
         font-weight: 700;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        font-family: 'Open Sans', sans-serif;
 }
 
 .social-networks {
