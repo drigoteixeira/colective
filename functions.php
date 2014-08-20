@@ -66,5 +66,19 @@ function fix_links($input) {
     return $normalized;
 }
 
+// DELAY PUBLISHING POSTS ON RSS FEEDS
+
+function publish_later_on_feed($where) {
+global $wpdb;
+if ( is_feed() ) {
+    $time_now = gmdate('Y-m-d H:i:s');
+    $time_delay = '15'; // integer
+    $time_span = 'MINUTE'; //MINUTE, HOUR, DAY, WEEK, MONTH, YEAR
+    $where = " AND TIMESTAMPDIFF($device, $wpdb->posts.post_date_gmt, '$time_now') > $time_delay ";
+    }
+    return $where;
+}
+add_filter('posts_where', 'publish_later_on_feed');
+
 
 ?>
